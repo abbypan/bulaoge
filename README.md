@@ -7,7 +7,7 @@ download post from bulaoge.net  ,  convert to  mobi ebook
 
 ## 安装
 
-安装 perl
+安装 perl，mobi转换需要安装calibre
 
 cpan App::cpanminus
 
