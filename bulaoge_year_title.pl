@@ -47,10 +47,9 @@ for my $i ( $year_s .. $year_e ) {
     };
     my $chap_r = $r->scrape($h);
     my @chap = grep { $_->{title}=~/$book/ and $_->{url}=~/#Content$/ } @$chap_r;
-    push @floor, @chap;
+    push @floor, reverse @chap;
 }
 
-@floor = reverse @floor;
 $xs->{parser}->update_url_list(\@floor, $BASE_URL);
 
 
