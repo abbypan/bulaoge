@@ -19,4 +19,10 @@ cpanm Novel::Robot
 
 ## 例子
 
+按分类
+
 perl bulaoge.pl 'black.f' '二十八岁未成年(2015)' 'http://bulaoge.net/user.blg?dmn=73&cid=261914' 3
+
+按年份，以及书名关键字
+
+perl bulaoge_year_title.pl 'black.f' '哦漏' 'http://bulaoge.net/archives.blg?dmn=73' 2010 2011
