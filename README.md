@@ -26,3 +26,5 @@ perl bulaoge.pl 'black.f' '二十八岁未成年(2015)' 'http://bulaoge.net/user
 按年份，以及书名关键字
 
 perl bulaoge_year_title.pl 'black.f' '哦漏' 'http://bulaoge.net/archives.blg?dmn=73' 2010 2011
+
+![bulaoge.png](bulaoge.png)
